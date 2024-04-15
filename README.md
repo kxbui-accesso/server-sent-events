@@ -12,9 +12,6 @@ Other tools and technologies used:
 * [Angular CLI](https://cli.angular.io): frontend scaffolding
 * [Bootstrap](http://www.getbootstrap.com): layout and styles
 * [Font Awesome](http://fontawesome.com): icons
-* [JSON Web Token](https://jwt.io): user authentication
-* [Angular 2 JWT](https://github.com/auth0/angular2-jwt): JWT helper for Angular 2+
-* [Bcrypt.js](https://github.com/dcodeIO/bcrypt.js): password encryption
 
 ## Prerequisites
 1. Install [Node.js](https://nodejs.org)
@@ -23,7 +20,7 @@ Other tools and technologies used:
 
 ## Run
 ### Development mode with files watching
-`npm run dev`: [concurrently](https://github.com/kimmobrunfeldt/concurrently) execute MongoDB, Angular build, TypeScript compiler and Express server.
+`npm run dev`: [concurrently](https://github.com/kimmobrunfeldt/concurrently) execute Angular build, TypeScript compiler and Express server.
 
 A window will automatically open at [localhost:4200](http://localhost:4200). Angular and Express files are being watched. Any change automatically creates a new bundle, restart Express server and reload your browser.
 
@@ -50,9 +47,6 @@ A window will automatically open at [localhost:4200](http://localhost:4200). Ang
 8. The app is now running and listening on port 3000
 9. You can now visit the public IP of your AWS EC2 followed by the port, eg: `12.34.56.78:3000`
 10. Tip: use [pm2](https://pm2.keymetrics.io/) to run the app instead of `npm start`, eg: `pm2 start dist/server/app.js`
-
-## Preview
-![Preview](https://raw.githubusercontent.com/DavideViolante/Angular2-Full-Stack/master/demo.gif "Preview")
 
 ## Please open an issue if
 * you have any suggestion to improve this project
