@@ -1,1 +1,5 @@
-Hello
+<button (click)="start()">Start</button>
+<button (click)="end()">End</button>
+<div *ngFor="let item of messages">
+  <div>{{ item.num }}</div>
+</div>
